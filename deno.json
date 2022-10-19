@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "start": "deno run --watch -A ./main.ts"
+  },
+  "compilerOptions": {
+    "lib": [
+      "deno.window",
+      "deno.unstable"
+    ]
+  }
+}
